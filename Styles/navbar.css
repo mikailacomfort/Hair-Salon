@@ -1,0 +1,89 @@
+.top-bar {
+  height: 160px;
+  width: 100%;
+}
+
+.nav-bar ul {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 4%;
+}
+
+/* #zizurz {
+  grid-column: 2 / 4;
+  grid-row: 2 / -1;
+  background-color: #222842;
+  border: 10px solid red; 
+} */
+
+#home {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  background-color: #335f64;
+}
+
+#about {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+  background-color: #1b2130;
+}
+
+#hairstyle {
+  grid-column: 4 / 5;
+  grid-row: 3 / 4;
+  background-color: #1b2130;
+}
+
+#blog {
+  grid-column: 5 / 6;
+  grid-row: 3 / 4;
+  background-color: #1b2130;
+}
+
+#contact {
+  grid-column: 6 / 7;
+  grid-row: 3 / 4;
+  background-color: #1b2130;
+}
+
+.nav-bar a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-bar li {
+  text-align: center;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.nav-bar ul {
+  background-color: #4c8f96;
+}
+
+#zizurz {
+  width: 40%;
+  height: 150px;
+  margin: 20px 0px 0px 20px;
+  background-color: #222842;
+  text-align: center;
+  padding: 30px;
+  margin-right: 50px;
+}
+
+#zizurz a {
+  color: white;
+  font-size: 60px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.top-bar {
+  display: inline-flex;
+  background-color: #4c8f96;
+  border-bottom: white 20px solid;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+}
