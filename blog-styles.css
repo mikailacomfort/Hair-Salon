@@ -50,3 +50,22 @@
   line-height: 24px;
   margin: 5px 20px 20px;
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 679px) {
+.main {
+display: flex;
+flex-direction: column;
+}
+
+.news p {
+  margin: 20px;
+  height: 100%;
+  width: 50%
+}
+.recent-news {
+  margin: 20px;
+  width: 90%
+}
+}

@@ -28,3 +28,24 @@ position: absolute;
   width: 20px;
   display: inline;
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 783px) {
+  
+.social {
+width: 100px;
+}
+
+@media (max-width: 556px) {
+
+footer p {
+text-align: left;;
+}
+
+.social {
+margin-left: 70%;
+width: 50%;
+}
+}
+}
